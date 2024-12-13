@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0b0a7328da.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/jpg" href="favicons.jpg">
+</head> 
+    <body> <div class="cursor" id="cursor"></div>
+    <script src="script.js"></script> 
+</body> 
+    
+
+</head>
+<body>
+   <div id="home" class="container">
+    <nav>
+        <img src="logo.jpg" class="logo">
+        <ul id="sidemenu"> 
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SDG</a></li>
+            <li><a href="#portfolio">WORKS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <h1> Hi, I'm <span>Czantelle Faye</span></h1>
+        <p>A First year Information Technology Student<br>at Batangas State University,
+        I'm passionate about<br>technology and excited to learn more about the<br>IT field.
+        </p>
+        <a href="#contact">Let's Talk</a>
+        <a href="#about">More about me</a>
+        
+    </div>
+
+   </div>
+
+<!--------------about------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="about.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub">About me</h1>
+                    <p>Hi, I'm Czantelle! A first-year Information Technology student at Batangas State University, The National 
+                        Engineering University-Alangilan Campus. I am an aspiring programmer and a student currently studying Information 
+                        Technology.  As a beginner, I am focused on learning and growing through every project I take on. I have gained knowledge
+                        about technology, System Software, Computer Hardware, Network and Security through various courses and projects,
+                        and I am eager to keep improving my skills. My passion lies in exploring innovative solutions, and hope to contribute 
+                        meaningfully to future projects as I continue my studies. I'm excited to connect with others in the tech community and 
+                        expand my understanding of web development and beyond.</p>
+
+                    <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('interest')">Interest</p>
+                    <p class="tab-links" onclick="opentab('education')">Education Awards</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul> 
+                            <li><span>Academic Skills</span><br>Problem-solving<br>Critical thinking</li>
+                            <li><span>Technical Skills</span><br>Basic Web Development/editing</li>
+                            <li><span>Personal Skills</span><br>Adaptability<br>Creativity</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="interest">
+                        <ul> 
+                            <li><span>Personal Interest</span><br>Exploring<br>Dancing</li>
+                            <li><span>Academic Interest</span><br>Infomation Technology<br>Web Development<br>Graphic Design</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul> 
+                            <li><span>2019</span><br>Achiever/Conduct Award</li>
+                            <li><span>2020</span><br>With Honors/Conduct Award</li>
+                            <li><span>2021</span><br>With Honors</li>
+                            <li><span>2022</span><br>With Honors</li>
+                            <li><span>2023</span><br>With Honors</li>
+                            <li><span>2024</span><br>With High Honors/Best in Physics</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------------------services------------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub">SDG 16</h1>
+        <div class="services-list">
+            <div> 
+                <i class="fa-solid fa-peace"></i>
+                <h2>Promoting Peace, Justice, and Strong Institutions</h2>
+                <p>Seeks to foster peaceful societies, promote the rule of law,
+                   reduce violence, and ensure equal access to justice for all,
+                   while strengthening institutions that support sustainable
+                   development and governance.</p>
+                <a href="https://www.un.org/sustainabledevelopment/peace-justice/" target="_blank">Learn more </a>
+            </div>
+            <div> 
+                <i class="fa-solid fa-scale-unbalanced-flip"></i>
+                <h2>Ensuring Access to Justice and Fair Treatment for All</h2>
+                <p>Aims to ensure that every individual, regardless of background,
+                   has access to justice, is treated fairly, and has the opportunity
+                   to seek redress and legal protection, promoting equality before the law.
+                </p>
+                <a href="https://en.wikipedia.org/wiki/Sustainable_Development_Goal_16" target="_blank">Learn more </a>
+            </div>
+            <div> 
+                <i class="fa-solid fa-building-columns"></i>
+                <h2>Building Effective Institutions for Sustainable Peace and Development</h2>
+                <p>Focuses on strengthening national institutions to be accountable, transparent,
+                   and responsive, which is essential for creating lasting peace, upholding human
+                   rights, and achieving long-term societal development.</p>
+                <a href="https://globalgoals.org/goals/16-peace-justice-and-strong-institutions/" target="_blank">Learn more </a>
+            </div>
+        </div>
+        <div style="text-align: center;">
+            <a href="#portfolio" class="home-button">NEXT</a>
+        </div>
+    </div>
+</div>
+
+<!-------------------------------works----------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub">Advancing Peace and Justice</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="peace.jpg" alt="Peace One Day">
+                <div class="layer">
+                    <h3>The Peace One Day Development</h3>
+                    <p>Raises awareness for global peace by promoting Peace Day (September 21), engaging communities, schools, and organizations in peace-building activities to encourage conflict resolution and collaboration.</p>
+                    <a href="#"><i class="fa-solid fa-dove"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="UN.jpg" alt="UN Global Compact">
+                <div class="layer">
+                    <h3>UN Global Compact's Business for Peace</h3>
+                    <p>Mobilizes the private sector to support peace in conflict-affected areas by adopting responsible business practices and contributing to peacebuilding efforts, creating stable environments for sustainable development.</p>
+                    <a href="#"><i class="fa-solid fa-scale-balanced"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="justice.jpg" alt="World Justice Project">
+                <div class="layer">
+                    <h3>World Justice Project</h3>
+                    <p>Focuses on strengthening the rule<br>of law worldwide by promoting legal reforms, conducting research, and engaging with governments and civil society to improve access to justice<br> and foster accountable institutions.</p>
+                    <a href="#"><i class="fa-solid fa-flag"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<!----------------------------contacts----------------------->
+
+<div id="contact">
+   <div class="container">
+      <div class="row">
+        <div class="contact-left">
+            <h1 class="sub">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>czanfay@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>0987-436-4267</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/me/"<i class="fa-brands fa-facebook" target="blank"></i></a>
+                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fczanfay%2Fprofilecard%2F%3Figsh%3DcWMxeTdmN2U4dXd6%26fbclid%3DIwZXh0bgNhZW0CMTAAAR0Xrm1jUnMNkC_WI3yIMkTCBurPcfp6JGHnaxfaMuVvDrDYg9I-FB0EMvI_aem_2kufcli76Mc2zbK2ELlR2w&h=AT2LVGMqS30IVgaQ8VHgZiwlgvwX1WDCA2otSYhMdyWSL6Exo49psY0j74RR9uqCfEQPbxGQqo6Y0JlsaqLdGKF3pQgflvItT38NY9Ykfkrq3eFWLQBj_A6YHNCmUJroXy_arFjoojGsI_0"<i class="fa-brands fa-instagram" target="blank"></i></a>
+                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.tiktok.com%2F%40notcxann%3F_t%3DZS-8s7ioI0IyxT%26_r%3D1%26fbclid%3DIwZXh0bgNhZW0CMTAAAR2kUo3dJzUMN2ttKzbkiZ0h8uDdLGr2Ojp4cyt9MHprXM_EC4eaHP4LQRU_aem_2XF8DmLUjtwGR8KQDC_n2Q&h=AT09rVrQmY-2YrR6x6F1a7sDgaZ4x0Lwz6n0iJuoKqEW4c4Y8ebzr4ZT51l4tB3B3TjLUrPxnv8ed5NloYs_eSBb7ZCBdyCBJOlrqfZsKZURuLKZFLH_D31NO01kyOvDrYsOgOmoxosKpk8"<i class="fa-brands fa-tiktok" target="blank"></i></i></a>
+                <a href="https://www.facebook.com/czntllfy"<i class="fa-brands fa-facebook-messenger" target="blank"></i></a>
+            </div>
+        </div>
+        <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+                <div class="button-group">
+                    <button type="button" class="btn btn2 home-btn" onclick="location.href='#home'">Go Back</button>
+                 </div>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+
+</body>
+</html>
